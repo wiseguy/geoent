@@ -3,7 +3,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <div>
-        <div>GeoEnt</div>
+        <div>Augmented Reality</div>
       </div>
     </div>
   );
