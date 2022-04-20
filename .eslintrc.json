@@ -1,6 +1,4 @@
 {
-  "extends": "next/core-web-vitals",
-  "rules": {
-    "import/no-webpack-loader-syntax": "off"
-  }
+  "extends": "next/core-web-vitals"
+
 }
