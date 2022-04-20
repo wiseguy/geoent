@@ -3,7 +3,8 @@ import Layout from "../../components/layout";
 import mapboxStyles from "../../styles/Mapbox.module.css";
 import React, { useRef, useEffect, useState } from "react";
 import { getMapboxToken } from "../../services/AppService";
-import mapboxgl from "!mapbox-gl";
+//import mapboxgl from "!mapbox-gl";
+const mapboxgl = require("mapbox-gl/dist/mapbox-gl.js");
 
 const Home = () => {
   const mapContainer = useRef(null);
