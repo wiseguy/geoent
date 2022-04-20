@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Aamir Suleman&apos;s personal testing ground!
+          Welcome to Aamir Sulemans personal testing ground!
         </h1>
 
         <p className={styles.description}>
@@ -28,55 +28,55 @@ const Home: NextPage = () => {
 
         <div className={styles.grid}>
           <Link href="/mapbox">
-            <a className={styles.card}>
+            <div className={styles.card}>
               <h2>Mapbox &rarr;</h2>
               <p>Find Mapbox testing paages</p>
-            </a>
+            </div>
           </Link>
 
           <Link href="/mapbox">
-            <a className={styles.card}>
+            <div className={styles.card}>
               <h2>Firebase &rarr;</h2>
               <p>Find Mapbox testing paages</p>
-            </a>
+            </div>
           </Link>
 
           <Link href="/ar">
-            <a className={styles.card}>
+            <div className={styles.card}>
               <h2>AR &rarr;</h2>
               <p>Find Mapbox testing paages</p>
-            </a>
+            </div>
           </Link>
 
           <Link href="/mapbox">
-            <a className={styles.card}>
+            <div className={styles.card}>
               <h2>Planetscale &rarr;</h2>
               <p>Find Mapbox testing paages</p>
-            </a>
+            </div>
           </Link>
           <Link href="/mapbox">
-            <a className={styles.card}>
+            <div className={styles.card}>
               <h2>Prisma &rarr;</h2>
               <p>Find Mapbox testing paages</p>
-            </a>
+            </div>
           </Link>
           <Link href="/mapbox">
-            <a className={styles.card}>
+            <div className={styles.card}>
               <h2>Tilling Dynamic &rarr;</h2>
               <p>Find Mapbox testing paages</p>
-            </a>
+            </div>
           </Link>
           <Link href="/mapbox">
-            <a className={styles.card}>
+            <div className={styles.card}>
               <h2>Three.js &rarr;</h2>
               <p>Find Mapbox testing paages</p>
-            </a>
+            </div>
           </Link>
           <Link href="/mapbox">
-            <a className={styles.card}>
+            <div className={styles.card}>
               <h2>Machine Learning &rarr;</h2>
               <p>Find Mapbox testing paages</p>
-            </a>
+            </div>
           </Link>
         </div>
       </main>
