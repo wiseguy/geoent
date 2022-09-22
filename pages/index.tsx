@@ -34,7 +34,10 @@ const Home: NextPage = () => {
         </div>
 
         <div className={styles.grid}>
-        <a href="tel:+1-202-560-3930">+1-202-560-3930</a>
+          <a href="tel:+1-202-560-3930">+1-202-560-3930</a>
+        </div>
+        <div className={styles.grid}>
+          <a href="mailto:aamir.suleman@geoent.com">aamir.suleman@geoent.com</a>
         </div>
 
         <div className={styles.grid}>
