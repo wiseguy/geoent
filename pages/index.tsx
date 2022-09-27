@@ -40,7 +40,7 @@ const Home: NextPage = () => {
           <a href="tel:+1-202-560-3930">+1-202-560-3930</a>
         </div>
         <div className={styles.grid}>
-          <a href="mailto:aamir.suleman@geoent.com">aamir.suleman@geoent.com</a>
+          <a href="mailto:sales@geoent.com">sales@geoent.com</a>
         </div>
       <br/>
         <div className={styles.grid}>
