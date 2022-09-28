@@ -44,7 +44,7 @@ const Home: NextPage = () => {
         </div>
       <br/>
         <div className={styles.grid}>
-        GeoEnt is a service-oriented export trading company delivering international companies electrical supplies for their markets.
+        GeoEnt is a service-oriented company delivering geospatial technology solutions as well as electrical supplies.
 
 Through comprehensive business relationships worldwide, GeoEnt has developed a strong allinace with several businesses. Our established clientele are invaluable assets for our business, and deservedly receive top-notch customer service from my dedicated team. 
    </div>
