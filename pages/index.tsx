@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         <Image src={logo} height='30px' alt='GeoEnt Logo' layout='fixed'/>
 
         <p className={styles.description}>
-        Experts in fulfilling international Electrical Supply needs
+        Experts in Geospatial technologies and Electrical Supply needs
         </p>
 
         <div className={styles.grid}>
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
           <div>Ashburn, VA</div>
         </div>
 
-        <div className={styles.grid}>
+      <div className={styles.grid}>
           <a href="tel:+1-202-560-3930">+1-202-560-3930</a>
         </div>
         <div className={styles.grid}>
