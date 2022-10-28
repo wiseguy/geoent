@@ -5,7 +5,7 @@ import { GetServerSideProps } from 'next'
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import logo from '../public/geoent-logo.png'
-import someFunc from '../pages/api/hello'
+import {someFunc} from '../pages/api/hello'
 
 async function  delay(ms:number) {
   return new Promise(resolve => setTimeout(resolve, ms));
