@@ -45,7 +45,7 @@ const Home: NextPage = () => {
         <Image src={logo} height='30px' alt='GeoEnt Logo' layout='fixed'/>
 
         <p className={styles.description}>
-        Experts in Geospatial technologies and Electrical Supply needs
+        1Experts in Geospatial technologies and Electrical Supply needs
         </p>
 
         <div className={styles.grid}>
