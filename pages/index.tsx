@@ -16,8 +16,9 @@ export const getServerSideProps: GetServerSideProps = async ({
   params,
   res,
 }) => {
+  console.log('starting a delay')
   const results = await delay(3000)
-
+  console.log('finished delay')
   return {
     props: { results },
   }
