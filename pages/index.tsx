@@ -1,9 +1,27 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import { GetServerSideProps } from 'next'
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import logo from '../public/geoent-logo.png'
+
+async function  delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
+
+export const getServerSideProps: GetServerSideProps = async ({
+  params,
+  res,
+}) => {
+  const results = await delay(3000)
+
+  return {
+    props: { results },
+  }
+}
 
 const Home: NextPage = () => {
   const x = 1;
