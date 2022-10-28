@@ -5,6 +5,7 @@ import { GetServerSideProps } from 'next'
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import logo from '../public/geoent-logo.png'
+import someFunc from '../pages/api/hello'
 
 async function  delay(ms:number) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -17,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async ({
   res,
 }) => {
   console.log('starting a delay')
-  const results = await delay(3000)
+  const results = await someFunc()//_await delay(3000)
   console.log('finished delay')
   return {
     props: { results },
