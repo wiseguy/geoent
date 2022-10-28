@@ -6,7 +6,7 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import logo from '../public/geoent-logo.png'
 
-async function  delay(ms) {
+async function  delay(ms:number) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
