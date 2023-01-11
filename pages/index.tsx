@@ -46,7 +46,7 @@ const Home: NextPage = () => {
         <Image src={logo} height='30px' alt='GeoEnt Logo' layout='fixed'/>
 
         <p className={styles.description}>
-        1Experts in Geospatial technologies and Electrical Supply needs
+           Electrical Supply Experts 
         </p>
 
         <div className={styles.grid}>
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
           <a href="tel:+1-202-560-3930">+1-202-560-3930</a>
         </div>
         <div className={styles.grid}>
-          <a href="mailto:sales@geoent.com">sales@geoent.com</a>
+          <a href="mailto:aamir@geoent.com">aamir@geoent.com</a>
         </div>
       <br/>
         <div className={styles.grid}>
