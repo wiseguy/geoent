@@ -46,27 +46,22 @@ const Home: NextPage = () => {
         <Image src={logo} height='30px' alt='GeoEnt Logo' layout='fixed'/>
 
         <p className={styles.description}>
-           Electrical Supply Experts 
+           Geospatial Solutions for Enterprises
         </p>
 
-        <div className={styles.grid}>
-          <div>Aamir Suleman</div>
-        </div>
+      
         <div className={styles.grid}>
           <div>Ashburn, VA</div>
         </div>
 
-      <div className={styles.grid}>
-          <a href="tel:+1-202-560-3930">+1-202-560-3930</a>
-        </div>
+      
         <div className={styles.grid}>
-          <a href="mailto:aamir@geoent.com">aamir@geoent.com</a>
+          <a href="mailto:info@geoent.com">info@geoent.com</a>
         </div>
       <br/>
         <div className={styles.grid}>
-        GeoEnt is a service-oriented company delivering geospatial technology solutions as well as electrical supplies.
-
-Through comprehensive business relationships worldwide, GeoEnt has developed a strong allinace with several businesses. Our established clientele are invaluable assets for our business, and deservedly receive top-notch customer service from my dedicated team. 
+        GeoEnt is a service-oriented company delivering geospatial technology solutions.
+        Please contact us for more info.
    </div>
 
        
